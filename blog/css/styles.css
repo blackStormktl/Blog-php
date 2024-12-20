@@ -14,7 +14,7 @@ main{
 }
 
 body{
-    background-color: #c0c0c0;
+    background-color: #f0ecec;
 }
 
 
@@ -58,10 +58,20 @@ body{
 
 /* HOME */
 #title-container{
-    min-width: 500px;
+    min-width: 1200px;
     text-align: center;
     margin-top: 30px;
     
+}
+
+.post-box .post-title a{
+    color: #000;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.post-box .post-title a:hover{
+    color: #999;
 }
 
 #title-container h1{
@@ -75,7 +85,7 @@ body{
     color: #999;
 }
 
-#posts-cotanier{
+#posts-container{
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 30px;
@@ -93,6 +103,25 @@ body{
     margin-bottom: 20px;
 }
 
+.post-box img{
+    width: 100%;
+}
+
+.post-box .post-description{
+    color: #666;
+}
+
+.tags-container{
+    margin-top: 10px;
+}
+
+.tags-container a{
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+}
 
 /* FOOTER */
 footer{
