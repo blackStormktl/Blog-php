@@ -123,6 +123,15 @@ body{
     text-decoration: none;
 }
 
+/* POSTS */
+#post-container{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: main sidebar;
+    border: px solid orange;
+}
+
 /* FOOTER */
 footer{
     width: 100%;
