@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+html{
+    min-height: 100vh;
+    position: relative;
+}
+main{
+    margin-bottom: 250px;
+}
+
+body{
+    background-color: #c0c0c0;
+}
+
+
+/* NAVBAR */
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 9.5%;
+}
+
+#logo img{
+    width: 50px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    padding: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+#navbar li{
+    margin: 0 10px;
+    padding: 5px;
+}
+
+#navbar .nav-link{
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 14px;
+}
+
+#navbar .nav-link:hover{
+    color: #999;
+}
+
+
+/* HOME */
+#title-container{
+    min-width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#title-container h1{
+    font-size: 50px;
+}
+
+
+#title-container p{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+#posts-cotanier{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-box:first-child{
+    min-width: 100%;
+}
+
+.post-box{
+    flex: 1 1 0;
+    margin: 0 1%;
+    margin-bottom: 20px;
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+}
